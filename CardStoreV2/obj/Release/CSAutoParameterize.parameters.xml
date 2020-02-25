@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="PaymentDetailsEntities-Web.config Connection String" description="PaymentDetailsEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.PaymentDetails.csdl|res://*/Models.PaymentDetails.ssdl|res://*/Models.PaymentDetails.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=cardstore.database.windows.net;initial catalog=PaymentDetails;persist security info=True;user id=sujai;password=CardStore23;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\HP\ 15\\Source\\Repos\\CardStoreAPIV2\\CardStoreV2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PaymentDetailsEntities']/@connectionString" />
+  </parameter>
+</parameters>

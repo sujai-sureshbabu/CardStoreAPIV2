@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="CardStoreV2" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\HP\ 15\\Source\\Repos\\CardStoreAPIV2\\CardStoreV2\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\HP\ 15\\Source\\Repos\\CardStoreAPIV2\\CardStoreV2\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="PaymentDetailsEntities-Web.config Connection String" description="" value="metadata=res://*/Models.PaymentDetails.csdl|res://*/Models.PaymentDetails.ssdl|res://*/Models.PaymentDetails.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=cardstore.database.windows.net;initial catalog=PaymentDetails;persist security info=True;user id=sujai;password=CardStore23;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\HP\ 15\\Source\\Repos\\CardStoreAPIV2\\CardStoreV2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PaymentDetailsEntities']/@connectionString" />
+  </parameter>
+</parameters>
